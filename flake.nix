@@ -12,11 +12,11 @@
       downloadUrl = {
         "specific" = {
 	  url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
-	  sha256 = "sha256:0an4i57736scjwlmiqj9w7fh950brkrlg82iyv86m51ycxsi58sk";
+	  sha256 = "sha256:1mqdmylq1k83n5prd4lqknws4gxacrn0q7kb6ns02cz2pm5xvmdm";
 	};
 	"generic" = {
 	  url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-generic.tar.bz2";
-	  sha256 = "sha256:1ymrfq3dwj05zyq7z1xyghmn9mvw8nh8ysl1r78gawjayab9x4r5";
+	  sha256 = "sha256:1zs73z91dqfi3jnf93dnwicbbib924ms08dixsmrnxwnwzq0cq0w";
 	};
       };
 
