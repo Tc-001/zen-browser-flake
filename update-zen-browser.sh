@@ -11,7 +11,7 @@ sed -i "s/version = \".*\"/version = \"$upstream\"/" ./flake.nix
 
 # Update the hash specific.sha256
 specfic=$(nix-prefetch-url --type sha256 --unpack $baseUrl/zen.linux-x86_64.tar.bz2)
-sed -i "s/specific.sha256 = \".*\"/.sha256 = \"$specfic\"/" ./flake.nix
+sed -i "s/specific.sha256 = \".*\"/specific.sha256 = \"$specfic\"/" ./flake.nix
 
 nix flake update
 nix build
